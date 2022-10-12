@@ -29,5 +29,17 @@
     "nodemon": "^2.0.20",
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "verbose": false,
+    "watch": [
+      "src/"
+    ],
+    "ext": "js,json,html,css,md,ts,tsx,glsl"
   }
 }

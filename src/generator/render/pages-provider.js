@@ -3,10 +3,9 @@ import path from 'path';
 import fse from 'fs-extra';
 import { changeExtension, removeNumberOnStart, toTitleCase } from '../common-provider.js';
 import { renderSideMenu } from './side-menu-provider.js';
-import { DATA_FOLDER } from '../index.js';
+import { setMacros } from './macros-provider.js';
 
-export const loadPagesConfig = () => {
-  const configPath = path.join(DATA_FOLDER, './pages/pages-config.json');
+export const loadConfig = (configPath) => {
   const content = fs.readFileSync(configPath, 'utf8');
   let json = null;
 
@@ -124,8 +123,7 @@ export const renderPages = (sourceRootPath, targetRootPath, data, md) => {
 
         let result = data.layout.replace('{% page-content %}', html);
         result = result.replaceAll('{% side-menu %}', sideMenuHTML);
-        result = result.replaceAll('{% css-hash %}', data.cssTimeStamp);
-        result = result.replaceAll('{% js-hash %}', data.jsTimeStamp);
+        result = setMacros(result, data);
 
         // render prev / next section
         const prevNextHTML = renderPrevNext(data.pagesList, current, data.pagesConfig);
