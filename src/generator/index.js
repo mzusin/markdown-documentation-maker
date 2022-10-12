@@ -11,7 +11,7 @@ import { getTimeStamp } from './common-provider.js';
 import { renderSpecialPages } from './render/special-pages-provider.js';
 import { renderSitemap } from './render/sitemap-provider.js';
 
-export const DATA_FOLDER = path.join(process.cwd(), './src/data');
+export const DATA_FOLDER = path.join(process.cwd(), './src/docs/data');
 
 // markdown -------------------
 const md = initMarkDown();
