@@ -1,5 +1,5 @@
 ## Width, Height, & Border Radius
-
+ 
 <div data-examples="width-height-border-radius"></div>
 
 By default, the slider width is **100%** and the height is **0.25 rem**. These values can be changed using the **slider-width** and **slider-height** properties:

@@ -5,6 +5,9 @@ This is a markdown-based documentation generator. The module is used in the [Too
 ## Usage
 
 - First of all, edit the configuration file located in **/src/docs/data/config.json**.
+- By default, the documentation sidebar is automatically generated from the filenames. You can set other names in the following configuration file: **/src/docs/data/pages/pages-config.json**.
+- Layout files are located at **/src/docs/data/layouts**.
+- Homepage is located at **/src/docs/data/special-pages/index.html**.
 
 ## Commands
 

@@ -17,12 +17,6 @@ export const compileClientSideScripts = (jsTimeStamp) => {
         '.png': 'text',
         '.svg': 'dataurl',
       },
-      banner: {
-        js: `/* 
-Tool Cool Range Slider Documentation
-Author: Tool Cool, toolcool.org@gmail.com>                          
-*/`,
-      },
     })
     .then(() => {
       // console.log('Done.');
