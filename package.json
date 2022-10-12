@@ -10,6 +10,10 @@
     "docs:watch": "nodemon src/docs/generator/index.js",
     "docs:install": "node run/install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toolcool-org/markdown-documentation-maker.git"
+  },
   "keywords": [
     "documentation",
     "markdown documentation",
