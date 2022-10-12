@@ -4,6 +4,7 @@ import cssnano from "cssnano";
 import autoprefixer from "autoprefixer";
 import path from "path";
 import fs from "fs";
+import { getRoot } from '../common-provider.js';
 
 /**
  * compile client side CSS
@@ -35,7 +36,7 @@ export const compileClientSideCSS = async (cssTimeStamp) => {
     autoprefixer,
   ]);
 
-  const cssSourcePath = path.join(process.cwd(), './src/client-side/css/index.css');
+  const cssSourcePath = path.join(process.cwd(), './src/docs/client-side/css/index.css');
   const css = fs.readFileSync(cssSourcePath, 'utf-8');
   const cssRes = await postcssHandler.process(css, {
     from: cssSourcePath

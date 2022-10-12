@@ -2,7 +2,26 @@
 
 This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/toolcool-org/toolcool-range-slider) library.
 
-## Usage
+## Initialization
+
+Add the following scripts to **package.json**:
+
+```shell
+"scripts": {
+    "docs:website": "http-server ./docs",
+    "docs:build": "node ./src/docs/generator/index.js",
+    "docs:watch": "nodemon ./src/docs/generator/index.js",
+    "docs:install": "node node_modules/markdown-documentation-maker/run/install.js"
+  },
+```
+
+Run install command:
+
+```shell
+npm run docs:install
+```
+
+## Configuration
 
 - First of all, edit the configuration file located in **/src/docs/data/config.json**.
 - By default, the documentation sidebar is automatically generated from the filenames. You can set other names in the following configuration file: **/src/docs/data/pages/pages-config.json**.
