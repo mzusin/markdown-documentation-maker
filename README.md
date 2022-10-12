@@ -7,6 +7,7 @@ This is a markdown-based documentation generator. The module is used in the [Too
 Add the following scripts to **package.json**:
 
 ```shell
+"type": "module",
 "scripts": {
     "docs:website": "http-server ./docs",
     "docs:build": "node ./src/docs/generator/index.js",
