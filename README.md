@@ -1,6 +1,12 @@
 # Markdown Documentation Maker
 
-This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/mzusin/toolcool-range-slider) library.
+![GitHub package.json version](https://img.shields.io/github/package-json/v/mzusin/markdown-documentation-maker)
+[![npm](https://img.shields.io/npm/dw/markdown-documentation-maker)](https://www.npmjs.com/package/markdown-documentation-maker)
+[![NPM](https://img.shields.io/badge/npm-md_documentation_maker-brightgreen)](https://www.npmjs.com/package/markdown-documentation-maker)
+[![](https://data.jsdelivr.com/v1/package/npm/markdown-documentation-maker/badge)](https://www.jsdelivr.com/package/npm/markdown-documentation-maker)
+
+
+This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/mzusin/markdown-documentation-maker) library.
 
 ## Initialization
 
