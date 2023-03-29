@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toolcool-org/markdown-documentation-maker.git"
+    "url": "https://github.com/mzusin/markdown-documentation-maker.git"
   },
   "keywords": [
     "documentation",
@@ -20,7 +20,7 @@
     "documentation generator",
     "docs"
   ],
-  "author": "Tool Cool <toolcool.org@gmail.com>",
+  "author": "Miriam Zusin <miriam.zusin@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "app-root-path": "^3.1.0",

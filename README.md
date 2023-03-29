@@ -1,6 +1,6 @@
 # Markdown Documentation Maker
 
-This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/toolcool-org/toolcool-range-slider) library.
+This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/mzusin/toolcool-range-slider) library.
 
 ## Initialization
 
