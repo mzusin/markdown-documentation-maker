@@ -34,6 +34,8 @@ Run install command:
 npm run docs:install
 ```
 
+This command will create a **docs** folder in the **/src** folder.
+
 ## Configuration
 
 - First of all, edit the configuration file located in **/src/docs/data/config.json**.
