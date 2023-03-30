@@ -13,6 +13,7 @@ This package is a markdown-based documentation generator that is especially  sui
 - [Initialization](#initialization)
 - [Configuration](#configuration)
 - [Commands](#commands)
+- [How to edit website pages](#how-to-edit-website-pages)
 
 ## Initialization
 
