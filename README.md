@@ -5,8 +5,12 @@
 [![NPM](https://img.shields.io/badge/npm-md_documentation_maker-brightgreen)](https://www.npmjs.com/package/markdown-documentation-maker)
 [![](https://data.jsdelivr.com/v1/package/npm/markdown-documentation-maker/badge)](https://www.jsdelivr.com/package/npm/markdown-documentation-maker)
 
+This package is a markdown-based documentation generator. An example of documentation created with this package can be found [here](https://toolcool-range-slider.mzsoft.org/).
 
-This is a markdown-based documentation generator. The module is used in the [Tool Cool Range Slider](https://github.com/mzusin/markdown-documentation-maker) library.
+## Table of contents
+- [Initialization](#initialization)
+- [Configuration](#configuration)
+- [Commands](#commands)
 
 ## Initialization
 
