@@ -48,20 +48,45 @@ This command will create a **docs** folder in the **/src** folder.
 
 ## Commands
 
-The following command is used to compile the documentation website:
+The command below is used to compile the documentation website. It creates the  documentation website located at **/doc** folder in the root.
 
 ```shell
 npm run docs:build
 ```
 
-The following command is used to compile the documentation website in watch mode:
+---------------------------------------------
+
+The following command is used to compile the documentation website in watch mode. It will be recreated whenever the documentation source files are modified.
 
 ```shell
 npm run docs:watch
 ```
 
-Run the documentation website locally (for debugging purposes only):
+To avoid an infinite loop, add the following [nodemon](https://github.com/remy/nodemon) configuration to your package.json file.
+
+```json
+{
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "verbose": false,
+    "watch": [
+      "src/"
+    ],
+    "ext": "js,json,html,css,md,ts,tsx,glsl"
+  }
+}
+```
+
+---------------------------------------------
+
+Run the documentation website locally (for debugging purposes only). By default, it will be opened on localhost with port 8080 [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
 ```shell
 npm run docs:website
 ```
+
+---------------------------------------------
