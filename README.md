@@ -38,9 +38,12 @@ This command will create a **docs** folder in the **/src** folder.
 
 ## Configuration
 
-- First of all, edit the configuration file located in **/src/docs/data/config.json**.
+- First of all, edit the configuration file located in **/src/docs/data/config.json**. There you can define the website name, email address, etc.
+
 - By default, the documentation sidebar is automatically generated from the filenames. You can set other names in the following configuration file: **/src/docs/data/pages/pages-config.json**.
+
 - Layout files are located at **/src/docs/data/layouts**.
+
 - Homepage is located at **/src/docs/data/special-pages/index.html**.
 
 ## Commands
