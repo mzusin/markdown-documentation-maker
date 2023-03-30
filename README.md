@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/badge/npm-md_documentation_maker-brightgreen)](https://www.npmjs.com/package/markdown-documentation-maker)
 [![](https://data.jsdelivr.com/v1/package/npm/markdown-documentation-maker/badge)](https://www.jsdelivr.com/package/npm/markdown-documentation-maker)
 
-This package is a markdown-based documentation generator. An example of documentation created with this package can be found [here](https://toolcool-range-slider.mzsoft.org/).
+This package is a markdown-based documentation generator that is especiallydgit  suitable for monorepos. An example of documentation created with this package can be found [here](https://toolcool-range-slider.mzsoft.org/).
 
 ## Table of contents
 - [Initialization](#initialization)
