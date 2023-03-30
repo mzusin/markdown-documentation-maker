@@ -105,3 +105,15 @@ To edit site pages, update the markdown files located in the **/src/docs/data/pa
 It's also possible to create and use additional non-documentation pages. One such predefined page is a **homepage**. It's located at **/special-pages/index.html**.
 
 All pages can use macros to print data from config file. For example, {% github %} or {% website-name %} will take values from the file **/src/docs/data/config.json**.
+
+
+--------------------------------------------
+
+## How to add new pages
+
+To add a new page, simply create a page in the **/src/docs/data/pages** folder. If the page is created in a subfolder, it will appear in the corresponding subtitle in the left menu.
+
+The page name format should be **{number}-{page name}.md**, for example **1-basic-usage.md**.
+
+* {number} - is used to sort pages in the left menu.
+* the same format applies to the folders (1-main, 2-another, etc.)
