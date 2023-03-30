@@ -14,6 +14,7 @@ This package is a markdown-based documentation generator that is especially suit
 - [Configuration](#configuration)
 - [Commands](#commands)
 - [How to edit website pages](#how-to-edit-website-pages)
+- [How to add new pages](#how-to-add-new-pages)
 
 ## Initialization
 
