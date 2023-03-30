@@ -10,6 +10,12 @@ This is a markdown-based documentation generator. The module is used in the [Too
 
 ## Initialization
 
+Install the package from npm:
+
+```
+npm i markdown-documentation-maker --save-dev
+```
+
 Add the following scripts to **package.json**:
 
 ```shell
