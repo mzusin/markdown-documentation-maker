@@ -96,3 +96,11 @@ npm run docs:website
 ```
 
 ---------------------------------------------
+
+## How to edit website pages
+
+To edit site pages, update the markdown files located in the **/src/docs/data/pages** folder. The website layout files are located in **/src/docs/data/layouts** folder.
+
+It's also possible to create and use additional non-documentation pages. One such predefined page is a **homepage**. It's located at **/special-pages/index.html**.
+
+All pages can use macros to print data from config file. For example, {% github %} or {% website-name %} will take values from the file **/src/docs/data/config.json**.
