@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/badge/npm-md_documentation_maker-brightgreen)](https://www.npmjs.com/package/markdown-documentation-maker)
 [![](https://data.jsdelivr.com/v1/package/npm/markdown-documentation-maker/badge)](https://www.jsdelivr.com/package/npm/markdown-documentation-maker)
 
-This package is a markdown-based documentation generator that is especially suitable for monorepos. It uses [Tailwind CSS framework](https://tailwindcss.com/) for styling. An example of documentation created with this package can be found [here](https://toolcool-range-slider.mzsoft.org/).
+This package is a markdown-based documentation generator that is especially suitable for monorepos. It uses [Tailwind CSS framework](https://tailwindcss.com/) for styling. The documentation is responsive and mobile-friendly. An example of documentation created with this package can be found [here](https://toolcool-range-slider.mzsoft.org/).
 
 ![An example of documentation](https://github.com/mzusin/markdown-documentation-maker/blob/main/img/preview-1.png?raw=true)
 
