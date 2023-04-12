@@ -114,7 +114,7 @@ export const configureMarkdown = (md) => {
       return td_open(tokens, idx, options, env, self)
     };
 
-    // <h1>
+    // <h1>, <h2>, <h3>, ...
     md.renderer.rules.heading_open = function(tokens, idx, options, env, self) {
       tokens[idx].attrJoin('class', 'text-3xl mb-8');
       return heading_open(tokens, idx, options, env, self)
@@ -128,7 +128,7 @@ export const configureMarkdown = (md) => {
 
     // <a>
     md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
-      tokens[idx].attrJoin('class', 'text-blue-500');
+      tokens[idx].attrJoin('class', 'text-sky-500');
       return link_open(tokens, idx, options, env, self)
     };
 
@@ -140,7 +140,7 @@ export const configureMarkdown = (md) => {
 
     // <blockquote>
     md.renderer.rules.blockquote_open = function(tokens, idx, options, env, self) {
-      tokens[idx].attrJoin('class', 'bg-gray-100 pt-4 px-4 flex my-10 border-l-4 border-blue-300 rounded');
+      tokens[idx].attrJoin('class', 'bg-gray-100 pt-4 px-4 flex my-10 border-l-4 border-blue-300 rounded dark:bg-purple-900');
       return blockquote_open(tokens, idx, options, env, self)
     };
 
