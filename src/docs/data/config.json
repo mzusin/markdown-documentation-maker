@@ -1,6 +1,7 @@
 {
   "website": {
-    "name": "My Awesome Website"
+    "name": "My Awesome Website",
+    "url": "https://my-website.com"
   },
   "social": {
     "github": "https://github.com/toolcool-org/toolcool-range-slider",

@@ -74,12 +74,20 @@ const init = async () => {
 
   // render sitemap
   renderSitemap(
-    path.join(OUTPUT_FOLDER),
-    pagesList
+      mainConfig?.website?.url || '',
+      path.join(OUTPUT_FOLDER),
+      pagesList
   );
 
   compileClientSideScripts(jsTimeStamp);
   await compileClientSideCSS(cssTimeStamp);
+
+  updateReadmeDocs(
+      mainConfig?.website?.url || '',
+      path.join(OUTPUT_FOLDER),
+      sideMenuMap,
+      pagesConfig
+  );
 };
 
 await init();
