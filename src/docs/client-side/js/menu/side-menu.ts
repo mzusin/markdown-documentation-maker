@@ -59,6 +59,8 @@ const restoreCollapsible = () => {
 
     for(const menuItem of menu){
         const $title = document.querySelector(`.side-menu [data-id="${ menuItem.id }"]`) as HTMLElement;
+        if(!$title) continue;
+
         toggle($title, menuItem.opened, false);
     }
 };
