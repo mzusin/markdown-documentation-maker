@@ -1,5 +1,0 @@
-https://range-slider.toolcool.org
-https://range-slider.toolcool.org/pages/basic-usage.html
-https://range-slider.toolcool.org/pages/nodejs.html
-https://range-slider.toolcool.org/pages/width-height-and-border-radius.html
-https://range-slider.toolcool.org/pages/colors.html

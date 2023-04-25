@@ -1,6 +1,6 @@
 {
   "name": "markdown-documentation-maker",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -28,7 +28,7 @@
     "cssnano": "^5.1.13",
     "esbuild": "^0.15.10",
     "fs-extra": "^10.1.0",
-    "highlight.js": "^11.6.0",
+    "highlight.js": "^11.7.0",
     "http-server": "^14.1.1",
     "markdown-it": "^13.0.1",
     "markdown-it-emoji": "^2.0.2",
