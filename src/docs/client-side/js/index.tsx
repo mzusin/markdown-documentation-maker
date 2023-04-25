@@ -4,12 +4,13 @@ import { handleDarkLightModes } from './dark-mode';
 import hljs from 'highlight.js';
 
 const init = () => {
-  if(hljs){
-    hljs.highlightAll();
-  }
-
   const $special = document.getElementById('special-page');
-  if($special) return;
+  if($special) {
+    if(hljs){
+      hljs.highlightAll();
+    }
+    return;
+  }
 
   initMobileMenu();
   initMenuScroll();
